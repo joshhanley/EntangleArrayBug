@@ -14,6 +14,8 @@
     </head>
     <body class="antialiased">
 
+        <livewire:list-test />
+
         <livewire:scripts />
     </body>
 </html>
