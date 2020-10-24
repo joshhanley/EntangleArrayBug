@@ -20,7 +20,7 @@ class ListTest extends Component
 
     public function updatedSearch()
     {
-        $this->changeList();
+        $this->search ? $this->changeList() : $this->reset('list');
     }
 
     public function changeList()
